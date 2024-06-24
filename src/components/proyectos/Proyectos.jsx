@@ -1,9 +1,13 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import CircularIndeterminate from '../UI/loader/Loader'
+
 
 const Proyectos = () => {
   return (
-   <h1>Proyectos Card</h1>
+    <>
+      <CircularIndeterminate />
+      <p className='text-white'>Loading</p>
+    </>
   )
 }
 
