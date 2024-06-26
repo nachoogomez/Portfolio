@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className='flex items-center gap-4'>
             <a
 						  className='w-auto h-7 px-4 font-medium flex items-center gap-2 bg-dusky text-moonlit rounded-3xl dark:text-dusky dark:bg-moonlit lg:h-10 lg:px-6 cursor-pointer active:scale-[1.1] transition-transform duration-300'
-						  href='#'
+						  href='https://drive.google.com/file/d/1BqhhqHBYL5w-3aoYV3zuOyty14BGLYvB/view'
 						  target='_blank'
 					  >
               <GrCloudDownload />
