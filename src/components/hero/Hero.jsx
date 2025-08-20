@@ -2,8 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaMapMarkerAlt   } from "react-icons/fa";
 import { MdAlternateEmail } from 'react-icons/md'
-import personal from '../../assets/personal.jpeg'
-import mapa from '../../assets/map.jpeg'
+import personal from '../../assets/personal.webp'
+import mapa from '../../assets/map.webp'
 
 const Hero = () => {
   return (
@@ -64,10 +64,10 @@ const Hero = () => {
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.25, duration: 0.3 }}
 				viewport={{ once: true }}
-				className='row-span-1 col-span-3 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 p-7 xl:col-span-2 lg:p-7'
+				className='row-span-1 col-span-3 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 p-4 sm:p-7 xl:col-span-2 lg:p-7'
 			>
-        <h2 className='text-2xl font-bold z-[1] text-black'>About me</h2>
-        <p className='text-base w-full z-[1] text-slate-600'>
+        <h2 className='text-lg sm:text-2xl font-bold z-[1] text-black'>About me</h2>
+        <p className='text-sm sm:text-base w-full z-[1] text-slate-600'>
 					Estudiante de tecnicatura en Desarrollo de software Full-Stack
 				</p>
       </motion.div>

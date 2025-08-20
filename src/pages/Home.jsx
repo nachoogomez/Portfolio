@@ -16,15 +16,6 @@ const Home = () => {
           />
           <div className='w-full flex flex-col gap-10 items-center max-w-5xl px-5 xl:max-w-6xl mt-[5.5rem]'>
             <Hero />
-            <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.25, duration: 0.3 }}
-                viewport={{ once: true }}
-                className='text-3xl font-semibold text-white'
-              >
-                Proyectos
-            </motion.h1>
             <Proyectos />
             <Skills />
             <ContactForm />
